@@ -310,7 +310,7 @@ select {
   background-color: #fff;
 }
 
-.btn {
+.btn, .delivery-service {
   color: #000;
   font-size: 1rem;
 }
