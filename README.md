@@ -23,5 +23,5 @@
 
 #fonts
 
-#serif font for  heading and logo #open sans
-#san-serif for body text #
+#serif font for  heading and logo #MONSERATE
+#san-serif for body text #OPEN SANS
