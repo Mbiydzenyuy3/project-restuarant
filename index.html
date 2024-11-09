@@ -117,14 +117,20 @@
           <h1 class="main-title">
             A Little Joy With <span class="logo-name">Delicious</span> Food
           </h1>
-          <p></p>
+          <p>
+            Welcome to ARLEAI Food where our customers satisfaction is of
+            optimust importance
+          </p>
           <div class="buttons"><button class="cta">Visit us</button></div>
         </div>
       </section>
       <section id="showcase-meals">
         <div class="sample-menu">
           <div class="content-wrapper">
-            <h2>Welcome To <span class="logo-name">ARLEAI</span> Food</h2>
+            <h2>
+              Customer service at <span class="logo-name">ARLEAI</span> Food
+              restuarant
+            </h2>
             <p>
               We are known for providing our clients with delicious meals and
               making them happy.
@@ -135,12 +141,11 @@
               <img src="./images/hamburger.png" alt="" class="image-wrapper" />
             </div>
             <div class="services">
-              <span class="food-service"> We are here to serve</span>
-              <h3>Take a pick in to our menu</h3>
+              <span class="food-service"> We are at your service</span>
+              <h3 class="our-menu">Take a pick in to our menu</h3>
             </div>
             <div class="gallery-two">
               <div class="breakfast">
-                <h3>Break-Fast</h3>
                 <div class="img">
                   <img
                     src="./images/pexels-pixabay-461382.jpg"
@@ -148,10 +153,13 @@
                     class="image-item-one"
                   />
                 </div>
-                <button>See Menu</button>
+                <span class="morning">
+                  <h2 class="menu-item">Breafast</h2>
+                </span>
+                <span>8am - 12noon</span>
+                <button>Breakfast menu</button>
               </div>
               <div class="lunch">
-                <h3>Lunch</h3>
                 <div class="img">
                   <img
                     src="./images/pexels-chanwalrus-958546.jpg"
@@ -159,10 +167,13 @@
                     class="image-item-two"
                   />
                 </div>
-                <button>See Menu</button>
+                <span class="afternoon">
+                  <h2 class="menu-item">Lunch</h2>
+                </span>
+                <span>1pm - 4pm</span>
+                <button>Lunch menu</button>
               </div>
               <div class="dinner">
-                <h3>Dinner</h3>
                 <div class="img">
                   <img
                     src="./images/pexels-trista-chen-198334-723198.jpg"
@@ -170,7 +181,11 @@
                     class="image-item-five"
                   />
                 </div>
-                <button>See Menu</button>
+                <span class="evening">
+                  <h2 class="menu-item">Dinner</h2>
+                </span>
+                <span>6pm - 10pm</span>
+                <button>Dinner Menu</button>
               </div>
             </div>
           </div>
@@ -178,7 +193,7 @@
       </section>
       <section class="footer">
         <div class="footer-wrapper">
-          <div class="logo">
+          <div class="logo-wrap">
             <img class="logo" src="./images/logo1.png .png" alt="" />
           </div>
           <div class="footer-item-wrapper">
@@ -200,14 +215,15 @@
                   required
                 />
               </label>
-              Message
-              <textarea
-                name="message"
-                id="message"
-                placeholder="Type your order here..."
-                required
+              <select name="menu" id="menu-items"></select>
+              <button
+                type="submit"
+                value="
+              submit"
+                class="btn"
               >
-              </textarea>
+                Place an order
+              </button>
             </form>
           </div>
           <div class="footer-item-wrapper">
@@ -216,25 +232,12 @@
             <div class="work-hours">
               <div class="opening-hours">
                 <h4>Opening Hours</h4>
-                <div>
-                  <span class="morning">
-                    <h3>Breafast</h3>
-                    <span>8am - 12noon</span>
-                  </span>
-                  <span class="afternoon">
-                    <h3>Lunch</h3>
-                    <span>1pm - 4pm</span>
-                  </span>
-                  <span class="evening">
-                    <h3>Dinner</h3>
-                    <span>6pm - 10pm</span>
-                  </span>
-                </div>
+                <span>8am - 10pm</span>
               </div>
             </div>
             <div class="closing-hours">
               <h4>Closing Hours</h4>
-              <span>10pm</span>
+              <span>10pm - 8am</span>
             </div>
           </div>
         </div>
