@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* root  */
+:root {
+  --primary-color: #ff0000ff;
+  --secondary-color: #ffff00ff;
+
+  /* neutral color */
+  --bg-color-body: #fff;
+  --body-text-color-one: #000;
+  --body-text-color-two: #fff;
+  --hightlight-text-bg: #ead637ff;
+
+  /* fonts */
+}
+
+.container {
+  width: 99%;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+svg {
+  width: 24px;
+  height: 24px;
+}
