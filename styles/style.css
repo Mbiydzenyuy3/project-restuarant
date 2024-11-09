@@ -6,7 +6,7 @@
 
 /* root  */
 :root {
-  --primary-color: #ff0000ff;
+  --primary-color: #c00000;
   --secondary-color: #ffff00ff;
 
   /* neutral color */
@@ -35,6 +35,7 @@ body {
   font-size: var(--body-font-size);
   font-family: var(--font-family-body-text);
   line-height: var(--body-line-height);
+  font-weight: var(--body-font-weight);
 }
 
 h1,
@@ -46,13 +47,59 @@ h6 {
   font-family: var(--font-family-headings);
   line-height: var(--body-line-height);
   word-spacing: var(--word-spacing);
+  color: var(--body-text-color-twos);
+}
+
+.main-title {
+  color: var(--body-text-color-two);
+  font-size: 2rem;
+  width: 80%;
+  line-height: 32px;
+}
+
+h2 {
+  color: var(--body-text-color-two);
+  text-align: center;
+}
+
+p {
+  color: var(--body-text-color-two);
+}
+
+a {
+  color: var(--body-text-color-two);
+  text-decoration: none;
+}
+
+a .menu {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+h3 {
+  background-color: var(--body-text-color-two);
+}
+
+.menu:hover {
+  background-color: #ffbf00;
+  color: #fff;
 }
 
 section {
   width: 100%;
-  height: 60vh;
-  border: 1px solid #333;
+  height: auto;
   margin-bottom: 1rem;
+  padding: 0.5em;
+}
+
+#showcase-meals {
+  background-color: #c00000;
+  padding: 1em 0;
+}
+
+.logo-name {
+  color: #f7b900;
 }
 
 .container {
@@ -139,15 +186,56 @@ button {
 .hero-content {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  justify-content: center;
   gap: 1rem;
-  background-image: url("../images/spaghetti.png");
+}
+
+#hero-section {
+  background-image: linear-gradient(rgba(8, 6, 6, 0.71), rgba(4, 2, 2, 0.719)),
+    url("../images/spaghetti.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
+#showcase-meals {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  padding: 0.5em;
+  gap: 1rem;
+}
+
+.meal-items {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery-two {
+  display: block;
+}
+
+img {
+  width: 100%;
+}
+
 /* footer styles */
 .footer {
+  margin-top: 1em;
   display: block;
+}
+
+.privacy-copwrite {
+  background-color: var(--primary-color);
+  color: var(--body-text-color-two);
 }

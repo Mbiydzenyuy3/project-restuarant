@@ -3,9 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
     <title>Project Restuarant</title>
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
@@ -23,7 +26,7 @@
             <img class="logo" src="./images/logo1.png .png" alt="" />
           </span>
           <nav class="menu-bar">
-            <a href="#Menu-html"> MENU</a>
+            <a href="#Menu-html"><span class="menu"> MENU</span></a>
             <div class="social-media">
               <span class="facebook">
                 <svg
@@ -90,37 +93,94 @@
               </span>
             </div>
             <div class="hamburger-menu">
-                <svg class="burger-menu" xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5" d="M20 7H4m16 5H4m16 5H4"/>
-                </svg>
+              <svg
+                class="burger-menu"
+                xmlns="http://www.w3.org/2000/svg"
+                width="200"
+                height="200"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-width="1.5"
+                  d="M20 7H4m16 5H4m16 5H4"
+                />
+              </svg>
             </div>
           </nav>
         </div>
       </header>
       <section id="hero-section">
         <div class="hero-content">
-          <h5>Welcome To <span class="logo-name">ARLIE</span> Food</h5>
-          <h1 class="main-title">A Little Joy With <span class="logo-name">Delicious</span> Food</h1>
+          <h1 class="main-title">
+            A Little Joy With <span class="logo-name">Delicious</span> Food
+          </h1>
           <p></p>
-          <div class="buttons"><button class="cta">Visit</button></div>
+          <div class="buttons"><button class="cta">Visit us</button></div>
         </div>
       </section>
-      <section>
+      <section id="showcase-meals">
         <div class="sample-menu">
           <div class="content-wrapper">
-            <h2></h2>
-            <p></p>
+            <h2>Welcome To <span class="logo-name">ARLEAI</span> Food</h2>
+            <p>
+              We are known for providing our clients with delicious meals and
+              making them happy.
+            </p>
           </div>
-          <div class="gallery-one">
-            <!-- gallery here -->
-          </div>
-          <div class="gallery-two">
-            <!-- gallery here people enjoying our meals -->
+          <div class="meal-items">
+            <div class="gallery-one">
+              <img src="./images/hamburger.png" alt="" class="image-wrapper" />
+            </div>
+            <div class="services">
+              <span class="food-service"> We are here to serve</span>
+              <h3>Take a pick in to our menu</h3>
+            </div>
+            <div class="gallery-two">
+              <div class="breakfast">
+                <h3>Break-Fast</h3>
+                <div class="img">
+                  <img
+                    src="./images/pexels-pixabay-461382.jpg"
+                    alt=""
+                    class="image-item-one"
+                  />
+                </div>
+                <button>See Menu</button>
+              </div>
+              <div class="lunch">
+                <h3>Lunch</h3>
+                <div class="img">
+                  <img
+                    src="./images/pexels-chanwalrus-958546.jpg"
+                    alt=""
+                    class="image-item-two"
+                  />
+                </div>
+                <button>See Menu</button>
+              </div>
+              <div class="dinner">
+                <h3>Dinner</h3>
+                <div class="img">
+                  <img
+                    src="./images/pexels-trista-chen-198334-723198.jpg"
+                    alt=""
+                    class="image-item-five"
+                  />
+                </div>
+                <button>See Menu</button>
+              </div>
+            </div>
           </div>
         </div>
       </section>
       <section class="footer">
         <div class="footer-wrapper">
-          <div class="logo"></div>
+          <div class="logo">
+            <img class="logo" src="./images/logo1.png .png" alt="" />
+          </div>
           <div class="footer-item-wrapper">
             <h3 class="contact">CONTACT US</h3>
             <form action="">
@@ -138,8 +198,9 @@
                   class="location"
                   placeholder="Enter your location"
                   required
-                /> </label
-              >Message
+                />
+              </label>
+              Message
               <textarea
                 name="message"
                 id="message"
@@ -150,23 +211,42 @@
             </form>
           </div>
           <div class="footer-item-wrapper">
-            <h3 class="service">SERVICE</h3>
+            <h3 class="footer-service">SERVICE</h3>
             <!-- menu and home-delivery here-->
-            <span></span>
-            <span></span>
-          </div>
-          <div class="footer-item-wrapper">
-            <h3 class="map">MAP</h3>
-            <div class="img">
-                <img src="" alt="">
+            <div class="work-hours">
+              <div class="opening-hours">
+                <h4>Opening Hours</h4>
+                <div>
+                  <span class="morning">
+                    <h3>Breafast</h3>
+                    <span>8am - 12noon</span>
+                  </span>
+                  <span class="afternoon">
+                    <h3>Lunch</h3>
+                    <span>1pm - 4pm</span>
+                  </span>
+                  <span class="evening">
+                    <h3>Dinner</h3>
+                    <span>6pm - 10pm</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="closing-hours">
+              <h4>Closing Hours</h4>
+              <span>10pm</span>
             </div>
           </div>
         </div>
-        <div class="privacy-copwrite">
-            <a href=""><span class="copywrite">&#169Copywrite by ARLIE. All writes reserved</span></a>
-            <a href="#"><span class="privacy">Policy and Privacy Terms</span></a>
-        </div>
       </section>
+      <div class="privacy-copwrite">
+        <span
+          ><a href=""
+            >Copy&copywrite by ARLEAI 2024. All writes reserved.</a
+          ></span
+        >
+        <span><a href="">Policy and Privacy Terms </a></span>
+      </div>
     </div>
   </body>
 </html>
