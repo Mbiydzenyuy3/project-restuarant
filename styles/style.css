@@ -13,18 +13,128 @@
   --bg-color-body: #fff;
   --body-text-color-one: #000;
   --body-text-color-two: #fff;
-  --hightlight-text-bg: #ead637ff;
 
   /* fonts */
+  --body-font-size: 1rem;
+  --body-font-weight: 300;
+  --heading-font-weight: 700;
+  --font-family-headings: "PT Serif", serif;
+  --body-line-height: 24px;
+  --heading-line-height: 40px;
+  --word-spacing: 2px;
+  --font-family-body-text: "Montserrat", sans-serif;
+
+  /* buttons and text background highlight*/
+  --button-: #ffbf00;
+  --hightlight-text-bg: #ead637ff;
+}
+
+/* body styles */
+
+body {
+  font-size: var(--body-font-size);
+  font-family: var(--font-family-body-text);
+  line-height: var(--body-line-height);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-family-headings);
+  line-height: var(--body-line-height);
+  word-spacing: var(--word-spacing);
+}
+
+section {
+  width: 100%;
+  height: 60vh;
+  border: 1px solid #333;
+  margin-bottom: 1rem;
 }
 
 .container {
-  width: 99%;
+  display: block;
   margin: 0 auto;
   background-color: #fff;
 }
 
-svg {
+/* body style end  */
+
+/* header styles here */
+#header,
+.header {
+  width: 100%;
+  padding: 1em 0.3em;
+  display: block;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#header {
+  background-color: var(--primary-color);
+  color: var(--body-text-color-two);
+}
+
+.logo {
+  width: 150px;
+}
+.menu-bar {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.burger-menu {
   width: 24px;
   height: 24px;
+}
+
+.header-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.nav-menu {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+svg {
+  width: 16px;
+  height: 16px;
+}
+
+.social-media {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/* header styles here */
+
+/* buttons here */
+button {
+  width: 124px;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: var(--button-);
+  border-radius: 8px;
+}
+
+/* footer styles */
+.footer {
+  display: block;
 }
