@@ -97,6 +97,10 @@ section {
 #showcase-meals {
   background-color: #c00000;
   padding: 1em 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
 }
 
 .logo-name {
@@ -203,13 +207,6 @@ button {
   height: 40vh;
 }
 
-#showcase-meals {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
-}
-
 .content-wrapper {
   display: flex;
   flex-direction: column;
@@ -276,7 +273,6 @@ img {
 .lunch,
 .dinner {
   background-color: var(--bg-color-body);
-  margin-bottom: 1rem;
   padding: 1em 0.5em;
   box-shadow: 0 -1px 6px 0;
   width: 95%;
