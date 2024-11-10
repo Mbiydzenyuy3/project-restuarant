@@ -168,7 +168,7 @@ ul {
   gap: 1rem;
   margin-top: 2rem;
 }
- 
+
 .logo-wrap .logo {
   width: 100px;
 }
@@ -190,7 +190,7 @@ select {
   outline: none;
   background-color: #fff;
 }
- 
+
 .btn,
 .delivery-service {
   color: #000;
@@ -223,4 +223,4 @@ button {
   font-size: 1rem;
   background-color: var(--button-color);
   border-radius: 8px;
-}  
+}
