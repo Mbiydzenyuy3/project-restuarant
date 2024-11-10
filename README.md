@@ -1,27 +1,26 @@
 # project-restuarant
-#colors# 
-#primary color: #Red#
---mindaro: #d6f49dff;
---citrine: #ead637ff;
---satin-sheen-gold: #cba328ff;
---licorice: #230c0fff;
---red: #ff0000ff;
---yellow: #ffff00ff;
+# Primary colors 
+Red , Yellow
+# neutral colors
+white , black
 
-#secondary : yellow#
---mindaro: #d6f49dff;
---citrine: #ead637ff;
---satin-sheen-gold: #cba328ff;
---licorice: #230c0fff;
---tiffany-blue: #a2d3c2ff;
---yellow: #ffff00ff;
+## Backgroundcolors
+Red on homepage
+Yellow on menupage
 
-#neutral colors
-#white and black
+# fonts
+body font size 16px
+heading font size 2-3rem
+font
 
-#font-size for body #16px
+# font-family for heading text and logo#
+serif font for  heading and logo #MONSERATE
+# font-family for body text
+san-serif for body text #OPEN SANS
 
-#fonts
+## Buttons
+bg color- yellow
 
-#serif font for  heading and logo #MONSERATE
-#san-serif for body text #OPEN SANS
+## Description
+We will be buliding a two web page restaurant website. we are creating an 
+online presence for ARLEAI FOOD restaurant online to gain more customers and exposure
