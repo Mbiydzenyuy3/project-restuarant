@@ -64,6 +64,11 @@ p {
   color: var(--body-text-color-two);
 }
 
+.menu,
+.menu-list {
+  display: none;
+}
+
 a {
   color: var(--body-text-color-two);
   text-decoration: none;
@@ -135,11 +140,6 @@ section {
   gap: 2rem;
 }
 
-.menu,
-.menu-list {
-  display: none;
-}
-
 .burger-menu {
   width: 24px;
   height: 24px;
@@ -197,7 +197,8 @@ button {
 }
 
 #hero-section {
-  background-image: linear-gradient(#080606b5, #040202b7),
+  background-image:
+    linear-gradient(#080606b5, #040202b7),
     url("../images/spaghetti.png");
   background-repeat: no-repeat;
   background-position: center;
