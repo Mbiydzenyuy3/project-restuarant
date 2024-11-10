@@ -22,5 +22,5 @@ san-serif for body text #OPEN SANS
 bg color- yellow
 
 ## Description
-We will be buliding a two web page restaurant website. we are creating an 
+We will be buliding a two web page restaurant site. we are creating an 
 online presence for ARLEAI FOOD restaurant online to gain more customers and exposure
