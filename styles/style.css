@@ -267,7 +267,6 @@ img {
 .lunch,
 .dinner {
   background-color: var(--bg-color-body);
-  margin-bottom: 1rem;
   padding: 1em 0.5em;
   box-shadow: 0 -1px 6px 0;
   width: 95%;
