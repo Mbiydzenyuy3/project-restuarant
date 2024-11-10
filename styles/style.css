@@ -128,6 +128,7 @@ section {
 .logo {
   width: 150px;
 }
+
 .menu-bar {
   display: flex;
   align-items: center;
@@ -176,7 +177,7 @@ button {
   justify-content: center;
   border: none;
   font-size: 1rem;
-  background-color: var(--button-);
+  background-color: var(--button-color);
   border-radius: 8px;
 }
 
@@ -191,9 +192,9 @@ button {
 }
 
 #hero-section {
-  background-image: 
-  linear-gradient(#080606b5, #040202b7),
-  url("../images/spaghetti.png");
+  background-image:
+    linear-gradient(#080606b5, #040202b7),
+    url("../images/spaghetti.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
