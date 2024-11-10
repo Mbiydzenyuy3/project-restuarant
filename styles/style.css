@@ -251,13 +251,20 @@ img {
 .privacy-copwrite {
   background-color: var(--primary-color);
   color: var(--body-text-color-two);
+  font-size: 12px;
+  text-align: center;
 }
 
-h4,
 .food-service {
   background-color: #f7b900;
   border-radius: 8px;
   padding: 0.5rem;
+}
+
+.work-hours,
+.opening-hours,
+.closing-hours {
+  width: 100%;
 }
 
 .menu-item {
@@ -277,6 +284,14 @@ h4,
   flex-direction: column;
   align-items: flex-start;
   gap: 0.5rem;
+  margin: auto;
+  border-radius: 8px;
+}
+
+.image-item-one,
+.image-item-two,
+.image-item-three {
+  border-radius: 8px;
   margin: auto;
 }
 
@@ -310,7 +325,8 @@ select {
   background-color: #fff;
 }
 
-.btn, .delivery-service {
+.btn,
+.delivery-service {
   color: #000;
   font-size: 1rem;
 }
