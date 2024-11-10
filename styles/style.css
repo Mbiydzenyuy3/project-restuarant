@@ -7,7 +7,7 @@
 /* root  */
 :root {
   --primary-color: #c00000;
-  --secondary-color: #ffff00ff;
+  --secondary-color: #ff0f;
 
   /* neutral color */
   --bg-color-body: #fff;
@@ -23,14 +23,11 @@
   --heading-line-height: 40px;
   --word-spacing: 2px;
   --font-family-body-text: "Montserrat", sans-serif;
-
-  /* buttons and text background highlight*/
-  --button-: #ffbf00;
+  --button-color: #ffbf00;
   --hightlight-text-bg: #ead637ff;
 }
 
 /* body styles */
-
 body {
   font-size: var(--body-font-size);
   font-family: var(--font-family-body-text);
@@ -97,6 +94,10 @@ section {
 #showcase-meals {
   background-color: #c00000;
   padding: 1em 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
 }
 
 .logo-name {
@@ -108,8 +109,6 @@ section {
   margin: 0 auto;
   background-color: #fff;
 }
-
-/* body style end  */
 
 /* header styles here */
 #header,
@@ -129,6 +128,7 @@ section {
 .logo {
   width: 150px;
 }
+
 .menu-bar {
   display: flex;
   align-items: center;
@@ -168,8 +168,6 @@ svg {
   gap: 1rem;
 }
 
-/* header styles here */
-
 /* buttons here */
 button {
   width: 136px;
@@ -179,7 +177,7 @@ button {
   justify-content: center;
   border: none;
   font-size: 1rem;
-  background-color: var(--button-);
+  background-color: var(--button-color);
   border-radius: 8px;
 }
 
@@ -194,20 +192,13 @@ button {
 }
 
 #hero-section {
-  background-image: linear-gradient(rgba(8, 6, 6, 0.71), rgba(4, 2, 2, 0.719)),
+  background-image: linear-gradient(#080606b5, #040202b7),
     url("../images/spaghetti.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   margin: 0;
   height: 40vh;
-}
-
-#showcase-meals {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
 }
 
 .content-wrapper {
@@ -284,7 +275,7 @@ img {
   flex-direction: column;
   align-items: flex-start;
   gap: 0.5rem;
-  margin: auto;
+  margin: 1rem auto;
   border-radius: 8px;
 }
 
