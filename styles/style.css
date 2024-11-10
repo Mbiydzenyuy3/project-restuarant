@@ -7,7 +7,7 @@
 /* root  */
 :root {
   --primary-color: #c00000;
-  --secondary-color: #ffff00ff;
+  --secondary-color: #ff0f;
 
   /* neutral color */
   --bg-color-body: #fff;
@@ -23,14 +23,11 @@
   --heading-line-height: 40px;
   --word-spacing: 2px;
   --font-family-body-text: "Montserrat", sans-serif;
-
-  /* buttons and text background highlight*/
-  --button-: #ffbf00;
+  --button-color: #ffbf00;
   --hightlight-text-bg: #ead637ff;
 }
 
 /* body styles */
-
 body {
   font-size: var(--body-font-size);
   font-family: var(--font-family-body-text);
@@ -78,7 +75,7 @@ a .menu {
   cursor: pointer;
 }
 
-h2 h3 {
+h3 {
   background-color: var(--body-text-color-two);
 }
 
@@ -112,8 +109,6 @@ section {
   margin: 0 auto;
   background-color: #fff;
 }
-
-/* body style end  */
 
 /* header styles here */
 #header,
@@ -172,8 +167,6 @@ svg {
   gap: 1rem;
 }
 
-/* header styles here */
-
 /* buttons here */
 button {
   width: 136px;
@@ -198,8 +191,9 @@ button {
 }
 
 #hero-section {
-  background-image: linear-gradient(rgba(8, 6, 6, 0.71), rgba(4, 2, 2, 0.719)),
-    url("../images/spaghetti.png");
+  background-image: 
+  linear-gradient(#080606b5, #040202b7),
+  url("../images/spaghetti.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
