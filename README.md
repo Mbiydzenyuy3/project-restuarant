@@ -35,7 +35,7 @@ The project consists of HTML and CSS files only:
 
 - index.html, menu.html (two page)
 - styles/
-  - style.css menu.css (two stylesheet)
+  - style.css menu.css (two style sheet)
 - images/ (directory for image)
 
 ## Features
@@ -43,7 +43,7 @@ The project consists of HTML and CSS files only:
 - Responsive design for various screen sizes
 - Interactive menu with categories (Breakfast, Lunch, Dinner)
 - Contact form for customer inquiries
-- Social media facebook tiktok instagram and youtube
+- Social media facebook tiktok instagram and YouTube
 
 ## Setup and Installation
 
