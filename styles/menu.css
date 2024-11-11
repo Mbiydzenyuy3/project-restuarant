@@ -105,6 +105,10 @@ ul {
   }
 }
 
+li {
+  font-size: 1rem;
+}
+
 .breakfast-menu {
   margin-bottom: 1rem;
 }
@@ -247,6 +251,46 @@ button {
   }
 
   .image {
-    
+    border: 2px solid #fff;
+    border-radius: 50%;
+    width: 320px;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .restaurant-menu {
+    width: 100%;
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  .building-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  li {
+    font-size: 1rem;
+  }
+
+  .food {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    gap: 1rem;
+  }
+
+  .footer {
+    padding: 0.5em;
+  }
+}
+
+@media  sceen and (min-width: 1024px) {
+  li {
+    font-size: 1.1rem;
   }
 }
