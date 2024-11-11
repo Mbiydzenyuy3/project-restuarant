@@ -80,6 +80,10 @@ a .menu {
   cursor: pointer;
 }
 
+.menu-black {
+  color: black;
+}
+
 h3 {
   background-color: var(--body-text-color-two);
 }
