@@ -97,7 +97,6 @@ section {
 }
 
 #showcase-meals {
-  background-color: #c00000;
   padding: 1em 0;
   display: flex;
   flex-direction: column;
@@ -196,7 +195,8 @@ button {
 }
 
 #hero-section {
-  background-image: linear-gradient(#080606b5, #040202b7),
+  background-image:
+    linear-gradient(#080606b5, #040202b7),
     url("../images/spaghetti.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -251,7 +251,6 @@ img {
 }
 
 .food-service {
-  background-color: #f7b900;
   border-radius: 8px;
   padding: 0.5rem;
 }
@@ -270,7 +269,6 @@ img {
 .breakfast,
 .lunch,
 .dinner {
-  background-color: var(--bg-color-body);
   padding: 1em 0.5em;
   box-shadow: 0 -1px 6px 0;
   width: 95%;
