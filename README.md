@@ -56,5 +56,4 @@ We will be buliding a two web page restaurant site. we are creating an
 online presence for ARLEAI FOOD restaurant online to gain more customers and exposure. We will be providing a menu that is parted in to three meal course, Breakfast, Lunch and Dinner. WE will also use the buttons yellow to help our customers navigate our site by clicking on them. The use of the contact section at the bottom of the page for sending us your orders from home as we provide home delivery service. we will have a number of African Cameroon dishes.
 
 ## Contributing
-
-Contributions are welcome. Please fork the repository and create a pull request with your changes.Have a nice time using our site
+Improvements are welcomed. Fork the repository and create a pull request with your changes.Have a nice time using our site
