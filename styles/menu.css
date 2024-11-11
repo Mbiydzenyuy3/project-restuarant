@@ -215,7 +215,7 @@ a .menu {
 }
 
 button {
-  width: 136px;
+  width: fit-content;
   padding: 0.65em;
   display: flex;
   align-items: center;
@@ -224,4 +224,29 @@ button {
   font-size: 1rem;
   background-color: var(--button-color);
   border-radius: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading-two-item {
+    text-align: center;
+  }
+
+  .subtitle-two {
+    text-align: center;
+  }
+
+  .breakfast-menu {
+    display: grid;
+    grid-template-columns: 60% 40%;
+  }
+
+  .img-item {
+    width: 300px;
+    height: 250px;
+    border-radius: 50%;
+  }
+
+  .image {
+    
+  }
 }
