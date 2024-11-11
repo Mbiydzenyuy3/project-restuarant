@@ -127,7 +127,7 @@ li {
 }
 
 .food-service {
-  background-color: #f7b900;
+  background-color: var(--primary-color);
   border-radius: 8px;
   padding: 0.5rem;
 }
