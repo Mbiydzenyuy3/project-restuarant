@@ -354,7 +354,14 @@ input {
     align-items: center;
     justify-content: center;
     gap: 2rem;
+  }
+
+  li {
     list-style-type: none;
     color: #000;
+  }
+
+  .hamburger-menu {
+    display: none;
   }
 }
