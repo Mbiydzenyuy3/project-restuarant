@@ -330,3 +330,21 @@ input {
   border: none;
   outline: none;
 }
+
+@media screen and (min-width: 768px) {
+  .breakfast,
+  .lunch,
+  .dinner {
+    width: 500px;
+    height: 600px;
+  }
+
+  .image-item-three {
+    width: 480px;
+    height: 400px;
+  }
+
+  .sample-menu {
+    width: 100%;
+  }
+}
