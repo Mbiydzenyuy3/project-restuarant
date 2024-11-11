@@ -3,10 +3,278 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
     <title>Project Restuarant</title>
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
-    
+    <div class="container">
+      <header id="header">
+        <div class="header-wrapper">
+          <span class="locaton">Bastos Yaoundé</span>
+          <span class="contact">+237 678 549 277</span>
+        </div>
+      </header>
+      <header class="header">
+        <div class="nav-menu">
+          <span class="logo-span">
+            <img class="logo" src="./images/logo1.png .png" alt="" />
+          </span>
+          <nav class="menu-bar">
+            <ul class="menu-list">
+              <li><a href="">Our Concept</a></li>
+              <li><a href="">Our Restaurant</a></li>
+              <li><a href="">Join us</a></li>
+              <li><a href="">Become a franchise</a></li>
+            </ul>
+            <a href="#menu-html"><span class="menu"> MENU</span></a>
+            <div class="social-media">
+              <span class="facebook">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="200"
+                  height="200"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M9.602 21.026v-7.274H6.818a.545.545 0 0 1-.545-.545V10.33a.545.545 0 0 1 .545-.545h2.773V7a4.547 4.547 0 0 1 4.86-4.989h2.32a.556.556 0 0 1 .557.546v2.436a.557.557 0 0 1-.557.545h-1.45c-1.566 0-1.867.742-1.867 1.833v2.413h3.723a.533.533 0 0 1 .546.603l-.337 2.888a.545.545 0 0 1-.545.476h-3.364v7.274a.962.962 0 0 1-.975.974h-1.937a.961.961 0 0 1-.963-.974"
+                  />
+                </svg>
+              </span>
+              <span class="instagram">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="200"
+                  height="200"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                    d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1M12 9a3 3 0 1 0 0 6a3 3 0 0 0 0-6m-5 3a5 5 0 1 1 10 0a5 5 0 0 1-10 0"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </span>
+              <span class="youtube">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="200"
+                  height="200"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M18.43 4.216H5.57A4.57 4.57 0 0 0 1 8.786v6.429a4.57 4.57 0 0 0 4.57 4.569h12.86a4.57 4.57 0 0 0 4.57-4.57V8.786a4.57 4.57 0 0 0-4.57-4.569zm-3.09 8.097l-6.015 2.869a.241.241 0 0 1-.346-.218V9.046c0-.18.19-.297.351-.215l6.016 3.048a.242.242 0 0 1-.005.434z"
+                  />
+                </svg>
+              </span>
+              <span class="tiktok">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="200"
+                  height="200"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M12.525.02c1.31-.02 
+                    2.61-.01 3.91-.02c.08 1.53.63 3.09
+                     1.75 4.17c1.12 1.11 2.7 1.62 4.24
+                      1.79v4.03c-1.44-.05-2.89-.35-4.2-.97c-.57-.26-1.1-.59-1.62-.93c-.01
+                       2.92.01 5.84-.02 8.75c-.08 1.4-.54 2.79-1.35 3.94c-1.31 1.92-3.58 
+                       3.17-5.91 3.21c-1.43.08-2.86-.31-4.08-1.03c-2.02-1.19-3.44-3.37-3.65-5.71c-.02-.5-.03-1-.01-1.49c.18-1.9 
+                       1.12-3.72 2.58-4.96c1.66-1.44 3.98-2.13 
+                       6.15-1.72c.02 1.48-.04 2.96-.04 4.44c-.99-.32-2.15-.23-3.02.37c-.63.41-1.11 
+                       1.04-1.36 1.75c-.21.51-.15 1.07-.14 1.61c.24 1.64 1.82 3.02 3.5 2.87c1.12-.01
+                        2.19-.66 2.77-1.61c.19-.33.4-.67.41-1.06c.1-1.79.06-3.57.07-5.36c.01-4.03-.01-8.05.02-12.07z"
+                  />
+                </svg>
+              </span>
+            </div>
+            <div class="hamburger-menu">
+              <svg
+                class="burger-menu"
+                xmlns="http://www.w3.org/2000/svg"
+                width="200"
+                height="200"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-width="1.5"
+                  d="M20 7H4m16 5H4m16 5H4"
+                />
+              </svg>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <section id="hero-section">
+        <div class="hero-content">
+          <h1 class="main-title">
+            A Little Joy With <span class="logo-name">Delicious</span> Food
+          </h1>
+          <p>
+            Welcome to ARLEAI Food where our customers satisfaction is of
+            optimust importance
+          </p>
+          <div class="buttons"><button class="cta">Visit us</button></div>
+        </div>
+      </section>
+      <section id="showcase-meals">
+        <div class="sample-menu">
+          <div class="content-wrapper">
+            <h2>
+              Customer service at <span class="logo-name">ARLEAI</span> Food
+              restuarant
+            </h2>
+            <p>
+              We are known for providing our clients with delicious meals and
+              making them happy.
+            </p>
+          </div>
+          <div class="meal-items">
+            <div class="gallery-one">
+              <img src="./images/hamburger.png" alt="" class="image-wrapper" />
+            </div>
+            <div class="services">
+              <span class="food-service"> We are at your service</span>
+              <h3 class="our-menu">Take a pick in to our menu</h3>
+            </div>
+            <div class="gallery-two">
+              <div class="breakfast">
+                <div class="img">
+                  <img
+                    src="./images/pexels-pixabay-461382.jpg"
+                    alt=""
+                    class="image-item-one"
+                  />
+                </div>
+                <span class="morning">
+                  <h2 class="menu-item">Breafast</h2>
+                </span>
+                <span>8am - 12noon</span>
+                <button>Breakfast menu</button>
+              </div>
+              <div class="lunch">
+                <div class="img">
+                  <img
+                    src="./images/pexels-chanwalrus-958546.jpg"
+                    alt=""
+                    class="image-item-two"
+                  />
+                </div>
+                <span class="afternoon">
+                  <h2 class="menu-item">Lunch</h2>
+                </span>
+                <span>1pm - 4pm</span>
+                <button>Lunch menu</button>
+              </div>
+              <div class="dinner">
+                <div class="img">
+                  <img
+                    src="./images/pexels-trista-chen-198334-723198.jpg"
+                    alt=""
+                    class="image-item-three"
+                  />
+                </div>
+                <span class="evening">
+                  <h2 class="menu-item">Dinner</h2>
+                </span>
+                <span>6pm - 10pm</span>
+                <button>Dinner Menu</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="footer">
+        <div class="footer-wrapper">
+          <div class="logo-wrap">
+            <img class="logo" src="./images/logo1.png .png" alt="" />
+          </div>
+          <div class="footer-item-wrapper">
+            <h3 class="contact">CONTACT US</h3>
+            <p class="delivery-service">
+              Home delivery service. please fill out the form below.
+            </p>
+            <form action="">
+              <label for="email-address">
+                <input
+                  type="text"
+                  class="email-address"
+                  placeholder="Enter your email-address"
+                  required
+                />
+              </label>
+              <label for="location">
+                <input
+                  type="text"
+                  class="location"
+                  placeholder="Enter your location"
+                  required
+                />
+              </label>
+              <select name="menu" id="menu-items" required>
+                <option value="select-option">Select option</option>
+                <option value="select-option">Fried Rice</option>
+                <option value="select-option">Eru and Water-fufu</option>
+                <option value="select-option">Pizza</option>
+                <option value="select-option">Ndole and Plantain</option>
+                <option value="select-option">
+                  Fried Potatoes and Fried Chicken
+                </option>
+                <option value="select-option">
+                  Grilled Chicken and Plaintain
+                </option>
+                <option value="select-option">Fried Potatoes and Meat</option>
+                <option value="select-option">
+                  Beef, Plaintain and Potatoes
+                </option>
+              </select>
+              <button
+                type="submit"
+                value="
+              submit"
+                class="btn"
+              >
+                Place an order
+              </button>
+            </form>
+          </div>
+          <div class="footer-item-wrapper">
+            <h3 class="footer-service">SERVICE</h3>
+            <!-- menu and home-delivery here-->
+            <div class="work-hours">
+              <div class="opening-hours">
+                <h4 class="food-service">Opening Hours</h4>
+                <span>8am - 10pm</span>
+              </div>
+            </div>
+            <div class="closing-hours">
+              <h4 class="food-service">Closing Hours</h4>
+              <span>10pm - 8am</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="privacy-copwrite">
+        <span
+          ><a href=""
+            >Copy&copywrite by ARLEAI 2024. All writes reserved.</a
+          ></span
+        >
+        <span><a href="">Policy and Privacy Terms </a></span>
+      </div>
+    </div>
   </body>
 </html>
