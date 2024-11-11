@@ -348,3 +348,27 @@ input {
     width: 100%;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  #header {
+    height: 70vh;
+  }
+
+  .menu,
+  .menu-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  li {
+    list-style-type: none;
+    color: #000;
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: none;
+  }
+}
