@@ -64,6 +64,11 @@ p {
   color: var(--body-text-color-two);
 }
 
+.menu,
+.menu-list {
+  display: none;
+}
+
 a {
   color: var(--body-text-color-two);
   text-decoration: none;
@@ -274,7 +279,7 @@ img {
   flex-direction: column;
   align-items: flex-start;
   gap: 0.5rem;
-  margin: auto;
+  margin: 1rem auto;
   border-radius: 8px;
 }
 
