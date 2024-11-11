@@ -196,8 +196,7 @@ button {
 }
 
 #hero-section {
-  background-image:
-    linear-gradient(#080606b5, #040202b7),
+  background-image: linear-gradient(#080606b5, #040202b7),
     url("../images/spaghetti.png");
   background-repeat: no-repeat;
   background-position: center;
